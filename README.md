@@ -12,3 +12,4 @@
 <div class="msg">
   Este bloco muda de cor conforme o tema do usuário.
 </div>
+
