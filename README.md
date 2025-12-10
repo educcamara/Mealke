@@ -3,14 +3,15 @@
 ![Mealke Logo](assets/Mealke%20Banner.png)
 
 <p align="center">
-  <a href="https://apps.apple.com/br/app/orbities/id6753018099?itscg=30200&itsct=apps_box_badge&mttnsubad=6753018099">
+  <a href="https://apps.apple.com/br/app/mealke/id6742419813?l=en-GB
+Mealke">
     <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1759881600"
          alt="Download on the App Store"
          style="width: 245px; height: 62px; object-fit: contain;" />
   </a>
 </p>
 
-🇺🇸 [English Version]\(https://github.com/educcamara/Orbities)
+🇺🇸 [English Version](https://github.com/educcamara/Mealke)
 
 ## Sobre
 
