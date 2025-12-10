@@ -23,9 +23,9 @@
   </a>
 </p>
 
-Uma das minhas grandes paixões é cozinhar, fazer marmitas, e tirar proveito dos ingredientes da minha prateleira. Ao longo do tempo, notei uma dificuldade forte de me manter organizado nos meus estoques, difícil de organizar minhas refeições, e até problema com desperdício de comida.
+Uma das minhas grandes paixões é cozinhar, preparar marmitas e tirar bom proevito dos ingredientes que tenho na prateleira. Com o tempo, notei que era desafiador manter meus estoques organizados, planejar refeições de forma consistente e, principalmente, evitar o desperdício de alimentos.
 
-Com isso em mente, decidi criar o Mealke, um aplicativo que me ajudasse a gerenciar meus ingredientes, planejar minhas refeições e reduzir o desperdício de comida. O aplicativo é um simples e intuitivo hub que você registra seus ingredientes junto com suas datas de validade, de forma que, ao mesmo tempo, você pode planejar e registrar suas refeições.
+Foi daí que surgiu a ideia de criar o **Mealke**, um aplicativo pensado para me ajudar a gerenciar ingredientes, estruturar minhas refeições e reduzir perdas. Ele funciona como um hub simples, no qual é possível registrar cada item com sua data de validade enquanto, simultaneamente, se planeja e acompanha o preparo das refeições.
 
 **Funcionalidades principais:**
 
@@ -44,10 +44,28 @@ Acompanhamento de Refeições:
 
 ## Tecnologias e Coisas
 
-- 
+- Aplicativo feito em Swift
+- Frontend modelado em SwiftUI
+- Persistência de dados local com SwiftData
+- TipKit para introdução de funcionalidades no aplicativo
+- GitFlow + Conventional Commits no fluxo de trabalho com Git
+- Testes unitários com XCTest para migração de esquemas em SwiftData
 
-## Minhas Contribuições
 
 ### MVVM no SwiftUI
 
-Responsável pela aplicação do padrão **MVVM** na camada de front-end com SwiftUI, separando Views da lógica de negócio e garantindo que cada tela seja guiada por um ViewModel claro, com estados e efeitos bem definidos.
+Aplicação do padrão **MVVM** na camada de front-end com SwiftUI, separando Views da lógica de negócio e garantindo que cada tela seja guiada por um ViewModel claro, com estados e efeitos bem definidos.
+
+### SwiftData para Persistência Local
+
+Criação de uma entidade que contém as configurações e o contexto das tabelas do SwiftData, possuindo operações genéricas de CRUD para facilitar a manipulação dos dados.
+
+Além disso, a configuração do esquema foi feito por `VersionedSchemas`, permitindo migração de esquemas de forma segura para versões em produção.
+
+### TipKit para Funcionalidades
+
+Implementação do **TipKit** para introdução de funcionalidades no aplicativo, guiando o usuário por meio de dicas contextuais que melhoram a experiência de uso e ajudam na descoberta de recursos.
+
+### Testes Unitários com XCTest
+
+Desenvolvimento de testes unitários utilizando o framework **XCTest** para garantir a integridade das operações de migração de esquemas no SwiftData, assegurando que os dados sejam preservados corretamente durante atualizações do aplicativo.
