@@ -11,9 +11,9 @@ Mealke">
   </a>
 </p>
 
-🇺🇸 [English Version](https://github.com/educcamara/Mealke)
+🇧🇷 [PT-BR Version](https://github.com/educcamara/Mealke/tree/pt-br)
 
-## Sobre
+## About
 
 
 <p align="center">
@@ -25,49 +25,48 @@ Mealke">
   </a>
 </p>
 
-Uma das minhas grandes paixões é cozinhar, preparar marmitas e tirar bom proevito dos ingredientes que tenho na prateleira. Com o tempo, notei que era desafiador manter meus estoques organizados, planejar refeições de forma consistente e, principalmente, evitar o desperdício de alimentos.
+One of my greatest passions is cooking, preparing meal preps, and making good use of the ingredients I have on the shelf. Over time, I realized that keeping my inventory organized, planning meals consistently, and especially avoiding food waste was becoming a challenge.
 
-Foi daí que surgiu a ideia de criar o **Mealke**, um aplicativo pensado para me ajudar a gerenciar ingredientes, estruturar minhas refeições e reduzir perdas. Ele funciona como um hub simples, no qual é possível registrar cada item com sua data de validade enquanto, simultaneamente, se planeja e acompanha o preparo das refeições.
+That’s when the idea to create **Mealke** came up, an app designed to help me manage ingredients, structure my meals, and reduce waste. It works as a simple hub where you can register each item with its expiration date while simultaneously planning and tracking meal preparation.
 
-**Funcionalidades principais:**
+**Main features:**
 
-Acompanhamento de Armazenamento de Alimentos:
-- Registre itens da despensa, geladeira ou freezer para controlar o que está disponível
-- Atribua datas de validade aos itens e evite desperdício
-- Visualize os itens armazenados organizados por categorias
-- Acompanhe múltiplos lotes do mesmo alimento com datas de validade ou quantidades diferentes
+Food Storage Tracking:
+- Register pantry, fridge, or freezer items to keep track of what’s available
+- Assign expiration dates to items and avoid waste
+- View stored items organized by categories
+- Track multiple batches of the same food with different expiration dates or quantities
 
-Acompanhamento de Refeições:
-- Planeje refeições selecionando ingredientes e registrando as quantidades utilizadas
-- Registre o preparo das refeições para saber o que foi preparado e armazenado em cada local
-- Registre café da manhã, almoço, jantar ou lanches a qualquer momento
-- Acompanhe quais ingredientes foram usados em cada refeição
-- Mantenha um histórico claro do seu consumo com um panorama semanal de refeições
+Meal Tracking:
+- Plan meals by selecting ingredients and recording the quantities used
+- Register meal preparation to know what was cooked and stored in each location
+- Record breakfast, lunch, dinner, or snacks at any time
+- Track which ingredients were used in each meal
+- Keep a clear history of your consumption with a weekly meal overview
 
-## Tecnologias e Coisas
+## Technologies and Things
 
-- Aplicativo feito em Swift
-- Frontend modelado em SwiftUI
-- Persistência de dados local com SwiftData
-- TipKit para introdução de funcionalidades no aplicativo
-- GitFlow + Conventional Commits no fluxo de trabalho com Git
-- Testes unitários com XCTest para migração de esquemas em SwiftData
+- App built with Swift
+- Frontend modeled in SwiftUI
+- Local data persistence with SwiftData
+- TipKit for introducing features in the app
+- GitFlow + Conventional Commits in the Git workflow
+- Unit tests with XCTest for schema migration in SwiftData
 
+### MVVM in SwiftUI
 
-### MVVM no SwiftUI
+Application of the **MVVM** pattern in the front-end layer with SwiftUI, separating Views from business logic and ensuring that each screen is guided by a clear ViewModel with well-defined states and effects.
 
-Aplicação do padrão **MVVM** na camada de front-end com SwiftUI, separando Views da lógica de negócio e garantindo que cada tela seja guiada por um ViewModel claro, com estados e efeitos bem definidos.
+### SwiftData for Local Persistence
 
-### SwiftData para Persistência Local
+Creation of an entity that contains the configurations and context of SwiftData tables, with generic CRUD operations to make data manipulation easier.
 
-Criação de uma entidade que contém as configurações e o contexto das tabelas do SwiftData, possuindo operações genéricas de CRUD para facilitar a manipulação dos dados.
+In addition, the schema setup was done using `VersionedSchemas`, allowing safe schema migration for production versions.
 
-Além disso, a configuração do esquema foi feito por `VersionedSchemas`, permitindo migração de esquemas de forma segura para versões em produção.
+### TipKit for Features
 
-### TipKit para Funcionalidades
+Implementation of **TipKit** to introduce features within the app, guiding users through contextual tips that improve the experience and help with feature discovery.
 
-Implementação do **TipKit** para introdução de funcionalidades no aplicativo, guiando o usuário por meio de dicas contextuais que melhoram a experiência de uso e ajudam na descoberta de recursos.
+### Unit Tests with XCTest
 
-### Testes Unitários com XCTest
-
-Desenvolvimento de testes unitários utilizando o framework **XCTest** para garantir a integridade das operações de migração de esquemas no SwiftData, assegurando que os dados sejam preservados corretamente durante atualizações do aplicativo.
+Development of unit tests using the **XCTest** framework to ensure the integrity of schema migration operations in SwiftData, guaranteeing that data is preserved correctly during app updates.
