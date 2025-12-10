@@ -19,6 +19,7 @@
   <a href="https://www.wwdcscholars.com/s/421F4CAF-7383-43DC-8278-114633C05473/2025">
     <img src="assets/SSC-Winner_enUS.png"
          alt="WWDC 2025 Swift Student Challenge Winner"
+         style="width: auto; height: 150px; object-fit: contain;"
 	/>
   </a>
 </p>
