@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://apps.apple.com/br/app/mealke/id6742419813?l=en-GB
 Mealke">
-    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1759881600"
-         alt="Download on the App Store"
+    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/pt-br?releaseDate=1759881600"
+         alt="Baixar na App Store"
          style="width: 245px; height: 62px; object-fit: contain;" />
   </a>
 </p>
@@ -18,8 +18,8 @@ Mealke">
 
 <p align="center">
   <a href="https://www.wwdcscholars.com/s/421F4CAF-7383-43DC-8278-114633C05473/2025">
-    <img src="assets/SSC-Winner_enUS.png"
-         alt="WWDC 2025 Swift Student Challenge Winner"
+    <img src="assets/SSC-Winner_ptBR.png"
+         alt="Vencedor da WWDC 2025 Swift Student Challenge"
          style="width: auto; height: 150px; object-fit: contain;"
 	/>
   </a>
